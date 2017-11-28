@@ -75,20 +75,30 @@ body
     +medium-devices
       margin-top: 0
       max-width: 50%
+  .mid-line
+    // content: ''
+    // display: block
+    // position: absolute
+    left: calc(50% - 1px)
+    width: 1px
+    background: $font-color
+    height: $midLine
+    // margin-top: -$midLine
+    transition: height $start
   .navigation
     +prefix-value(display, flex)
-    margin-top: $midLine
+    // margin-top: $midLine
     flex-direction: column
-    &::before
-      content: ''
-      display: block
-      position: absolute
-      left: calc(50% - 1px)
-      width: 1px
-      background: $font-color
-      height: $midLine
-      margin-top: -$midLine
-      transition: height $start
+    // &::before
+    //   content: ''
+    //   display: block
+    //   position: absolute
+    //   left: calc(50% - 1px)
+    //   width: 1px
+    //   background: $font-color
+    //   height: $midLine
+    //   margin-top: -$midLine
+    //   transition: height $start
     .nav-tab
       text-transform: uppercase
       text-align: center
@@ -122,11 +132,17 @@ body
         &:first-child
           border-radius: 5px 0 0 5px
           border-left: 1px solid $font-color
+  .footer
+    position: absolute
+    bottom: 0
+    margin-bottom: 10px
+    font-weight: 100
+    font-size: .85rem
 .front.tab-active
   opacity: 0
 .front.start
   width: 40%
-  .title, .text, .nav-tab
+  .title, .text, .nav-tab, .footer
     font-size: 0
   .navigation::before
     height: 0

@@ -5,7 +5,8 @@
         ], 
         "coffee": [], 
         "footer": [
-            "example1.yml"
+            "example1.yml", 
+            "aestheticTest.yml"
         ], 
         "main": [
             "aestheticTest.yml", 

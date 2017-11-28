@@ -7,6 +7,7 @@
     - "aesthetic-simple-box.sass"
   coffee:
     - "main.coffee"
+    - "footer.coffee"
     - "aesthetic.coffee"
   css:
     - "https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,200,400"
@@ -70,3 +71,6 @@
         Our thechnique approch will shape your website into more attracticve for business tool. We are versed in all Web technologies such as WordPress, Magento, Shopify. We even custom develop websites and web applications in HTML, Javascript, CoffeeScript, CSS, Sass, Nodejs, Python, and Java. At Modulos-Desighn, we have a clear and complete understanding of what it takes to create successful website design for business professionals. We will design and develop a custom web solution allowin your business to flourish."
 
       id: 3
+  footer:
+    text:
+      - ' © Modulos-Design'
